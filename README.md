@@ -89,7 +89,58 @@ out.print("<h2>Addition is = " + result + "</h2>");
 </html>
 ```
 - 📌 JSP page client se aane wali request ko read karta hai aur result generate karta hai.
+## ➕ Second Program: Square Calculation (HTML + JSP)
+### 🧾 HTML File – Square Program (square.html)
+- 📍 Location: src/main/webapp/square.html
 
+```
+  <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Square Program</title>
+</head>
+<body>
+<center>
+<h1>THIS IS MY JAVA WEB PAGE</h1>
+
+<form action="Square.jsp" method="get">
+  Number: <input type="text" name="num">
+  <input type="submit" value="Get Square">
+</form>
+
+</center>
+</body>
+</html>
+```
+- 📌 User ka input JSP page par request ke form me send hota hai.
+
+ ## 🧾 JSP File – Square Logic (Square.jsp)
+- 📍 Location: src/main/webapp/Square.jsp
+```
+  <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Square Result</title>
+</head>
+<body>
+<center>
+<h1>This is JSP Page</h1>
+
+<%
+int n = Integer.parseInt(request.getParameter("num"));
+int sqr = n * n;
+
+out.print("<h1>Square = " + sqr + "</h1>");
+%>
+
+</center>
+</body>
+</html>
+```
 ## ▶️ How to Run the Project
 - Right-click on the project
 - Select Run As → Run on Server
