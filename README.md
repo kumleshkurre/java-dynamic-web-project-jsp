@@ -13,7 +13,23 @@ The application takes user input from an HTML form and processes it using a JSP 
 - Java (JSP)
 - HTML5
 - Browser (Chrome / Edge)
-
+  
+## 📂 Project Structure
+```
+Dynamicweb
+├── Deployment Descriptor
+├── JAX-WS Web Services
+├── Java Resources
+├── build
+└── src
+    └── main
+        ├── java
+        └── webapp
+            ├── META-INF
+            ├── WEB-INF
+            ├── First.jsp
+            └── index.html
+```
 ## 📥 Step 1: Download Required Software
 - 1️⃣ Download Eclipse IDE
 - Download Eclipse IDE for Enterprise Java and Web Developers
