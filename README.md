@@ -15,7 +15,7 @@ The application takes user input from an HTML form and processes it using a JSP 
 - Browser (Chrome / Edge)
   
 ## 📂 Project Structure
-```
+```js
 Dynamicweb
 ├── Deployment Descriptor
 ├── JAX-WS Web Services
@@ -52,7 +52,7 @@ Dynamicweb
 
 ## 🧾 HTML File (index.html)
 - 📍 Location: src/main/webapp/index.html
-```
+```css
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,7 +79,7 @@ Dynamicweb
 ## 🧾 JSP File (First.jsp)
 
 - 📍 Location: src/main/webapp/First.jsp
-```
+```js
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -109,7 +109,7 @@ out.print("<h2>Addition is = " + result + "</h2>");
 ### 🧾 HTML File – Square Program (square.html)
 - 📍 Location: src/main/webapp/square.html
 
-```
+```css
   <!DOCTYPE html>
 <html>
 <head>
@@ -133,7 +133,7 @@ out.print("<h2>Addition is = " + result + "</h2>");
 
  ## 🧾 JSP File – Square Logic (Square.jsp)
 - 📍 Location: src/main/webapp/Square.jsp
-```
+```js
   <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
